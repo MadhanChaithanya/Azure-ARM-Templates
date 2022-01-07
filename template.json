@@ -18,6 +18,36 @@
                 "Env": "Dev",
                 "Owner": "Chaithu"
             }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2021-02-01",
+            "location": "East US",
+            "name": "azureb01straccount2",
+            "sku": {
+                "name": "Standard_LRS",
+                "tier": "Standard"
+            },
+            "kind": "StorageV2",
+            "tags": {
+                "Env": "Dev",
+                "Owner": "Chaithu"
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2021-02-01",
+            "location": "East US",
+            "name": "azureb01straccount3",
+            "sku": {
+                "name": "Standard_LRS",
+                "tier": "Standard"
+            },
+            "kind": "StorageV2",
+            "tags": {
+                "Env": "Dev",
+                "Owner": "Chaithu"
+            }
         }
     ],
     "outputs": {}
