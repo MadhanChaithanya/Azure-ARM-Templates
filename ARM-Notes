@@ -1,0 +1,10 @@
+arm templates can be deplyed in different ways:
+- Direct Portal
+- Azure Shell
+- Powershell
+- Azure Devops
+- Terraform
+
+
+Incremental -> Default and only option if you are using portal.
+Complete	-> 
