@@ -3,6 +3,22 @@
     "contentVersion": "1.0.0.0",
     "parameters": {},
     "variables": {},
-    "resources": [],
+    "resources": [
+        {
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2021-02-01",
+            "location": "East US",
+            "name": "azureb01straccount1",
+            "sku": {
+                "name": "Standard_LRS",
+                "tier": "Standard"
+            },
+            "kind": "StorageV2",
+            "tags": {
+                "Env": "Dev",
+                "Owner": "Chaithu"
+            }
+        }
+    ],
     "outputs": {}
 }
