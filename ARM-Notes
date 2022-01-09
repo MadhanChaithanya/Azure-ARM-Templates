@@ -8,3 +8,18 @@ arm templates can be deplyed in different ways:
 
 Incremental -> Default and only option if you are using portal.
 Complete	-> 
+
+Dependencies                    -> Depends on
+
+Scenario:
+Azure resoure manager template maximum size is 4 MB.
+
+To avoid such repetitive tasks in ARM Template we use Template Functions.
+
+Template Functions
+
+Azure ARM Template Functions. 
+
+Nested Templates
+Complete ARM Template study
+
