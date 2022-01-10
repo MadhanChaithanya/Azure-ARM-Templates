@@ -23,3 +23,17 @@ Azure ARM Template Functions.
 Nested Templates
 Complete ARM Template study
 
+
+Advantages:
+-----------
+1. Fully supported by Microsoft.
+2. Every new service launch is configurable using ARM Template.
+
+Disadvantages:
+-------------
+1. Everything is in a single file.
+2. JSON is complex.
+3. Modules are not available.
+4. No option to import manually created resources in to ARM Template.
+5. -WhatIf for Dryrun is only available in Powershell 7 but not effective.
+6. Ease of reading the code and understanding it.
